@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe5e5;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
+
+}
+
+.container.tenor-gif-embed {
+    max-width: 200px;
+}
+
+.container.btn {
+    display: flex;
+    gap: 25px;
+}
+
+/*.btn a {
+    text-decoration: none;
+    color: #fff;
+    background: #171515;
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: 0.5rem 1rem 3rem hsl(0 0% 0% 0.3);
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #6fd7a7;
+    background:#cac33b; 
+}*/
+.btn a{ 
+    padding: 12px 24px;
+    font-size: 16px;
+    color: rgb(18, 13, 13);
+    background-color: #7cb023;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    text-decoration: none;
+  }
+  
+  /* Glowing effect on hover */
+  .btn a:hover {
+    background-color: #84368b;
+    box-shadow: 0 0 20px rgba(98, 0, 234, 0.8), 0 0 40px rgba(98, 0, 234, 0.6), 0 0 60px rgba(98, 0, 234, 0.4);
+  }
